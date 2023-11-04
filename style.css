@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+header{
+    background-color: rgb(57, 55, 52);
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.adam{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(206, 209, 213);
+
+    font-weight: 700;
+    font-size: 1.8em;
+    transition: 1s ease;
+}
+
+.adam:hover{
+transform: scale(1.2);}
+.nav{
+    margin-right: -193px;
+}
+.nav a{
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 900;
+    width: 20px;
+    margin-right: 90px;
+    height: 400px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.nav a:hover{
+color: rgb(255, 255, 255);
+border-radius: 2em;
+transform: scale(1.5);
+}
+
+
+
+section{
+    padding: 100px 200px;
+}
+.main{
+   width: 100%;
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   background: url("backround.jpg") no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment:fixed ;
+}
+.main h2{
+    color: rgb(52, 52, 71);
+    font-size: 1.9em;
+    font-weight: 400;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10PX;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    font-style: initial;
+    font-weight: 600;
+}
+.main h3{
+    color: rgb(40, 38, 38);
+    margin-bottom: 3px;
+    font-weight: 400px ;
+    font-size: 1em;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(39, 37, 37);
+    font-size: 1.2em;
+    font-weight: 90;
+    display: inline-block;
+    padding: 0.9em 2.1em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.5s ease;
+    
+
+}
+.main-btn:hover{
+    background-color: rgb(35, 39, 39);
+    transform: scale(1.1);
+    font-weight: 100;
+}
+.social-icons a i{
+    font-size: 1.89em;
+    padding-left: 2px;
+    margin-right: 45px;
+    transition: 0.5s ease;
+    color: rgb(27, 27, 42);
+}
+
+.social-icons a i:hover {
+    transform: scale(1.5);
+    color: beige;
+}
+
+.cards {
+    background: url("background2.jpg") no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    margin-bottom: 100%;
+    background-position: center;
+    background-attachment:fixed ;
+
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card1{
+    background-color: rgb(255, 255, 255);
+    width: 21.25em;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgb(99, 94, 94 , 25%);
+    margin-right: 20px;
+    padding-bottom: 100em;
+    padding: 34px;
+    margin-bottom: 10em;
+    transition: 0.7s ease;
+}
+.card1:hover{
+    transform: scale(1.055);
+    box-shadow: 0 5px 25px rgba(22, 22, 22, 0.25);
+
+}
